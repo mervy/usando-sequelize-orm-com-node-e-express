@@ -6,3 +6,10 @@
 
 - Remote: git remote add origin https://github.com/mervy/usando-sequelize-orm-com-node-e-express.git
 
+### Add tags in 
+- git tag -a v1.0.0 -m "Version 1.0.0 - Node server initialized"
+- git push --follow-tags or
+- git config --global push.followTags true
+- or by adding followTags = true to the [push] section of your ~/.gitconfig file.
+- To push specific, one tag do following git push origin tag_name
+
